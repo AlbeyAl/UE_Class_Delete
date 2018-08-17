@@ -20,6 +20,9 @@ def find_file(name, extension, source):
                 filename = os.path.join (dirpath, filename)
                 return filename
 
+def delete_directory(filepath):
+    ''' Deletes a folder and the directory tree following it. '''
+    rmtree(filepath)
 
 def delete_file(filepath):
     '''Simply deletes a file at the path described in params. '''
