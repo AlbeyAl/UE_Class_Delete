@@ -29,6 +29,3 @@ def open_file(filepath):
     ''' Opens a file using webbrowser.open() to open a file in an external
     program, paying attention to OS.'''
     webbrowser.open(filepath)
-
-
-
